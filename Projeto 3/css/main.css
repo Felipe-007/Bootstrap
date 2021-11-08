@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    overflow: auto;
+}
+body .main-header {
+    width: 40%;
+    float: left;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../img/strata/bg.jpg);
+    background-size: cover;
+    text-align: right;
+}
+body  .main-header .main-header-bg {
+    background-color: #00000056;
+    height: 100vh;
+}
+body .main-header-link {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+body .main-header-link img {
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+body .main-header-link img:hover {
+    border: 3px solid white;
+}
+body .main-header h1 {
+    font-weight: 200;
+    position: absolute;
+    font-size: 16px;
+    top: 35%;
+    right: 10%;
+    color: #d4d4d4;
+    list-style: 1.2em;
+}
+body .main-header h1 strong {
+    color: #fff;
+}
+body .main-header p {
+    font-weight: 300;
+    color: #676767;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    right: 10%;
+    position: absolute;
+}
+body .main-header p a {
+    color: #676767;
+    text-decoration: dashed;
+}
+body .main-header p a:hover {
+    color: #49bf9d;
+}
+body .main-content {
+    float: right;
+    width: 60%;
+    padding-top: 40px;
+}
+body .main-content .button-default {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    text-decoration: none;
+    color: #9b9b9b;
+}
+body .main-content .button-default:hover {
+    background-color: #49bf9d;
+    border-color: #49bf9d;
+    color: white;
+}
+body .main-content .main-content-section {
+    width: 90%;
+    margin: 40px auto;
+}
+body .main-content .main-content-section h2 {
+    font-size: 1.5em;
+    color: #676767;
+    font-weight: 400;
+}
+body .main-content .main-content-section p {
+    font-size: 1em;
+    font-weight: 200;
+}
+body .main-content .main-content-section-rw {
+    width: 90%;
+    margin: 40px auto;
+}
+body .main-content .main-content-section-rw h2 {
+    font-size: 1.5em;
+    color: #676767;
+    font-weight: 400;
+}
+body .main-content .main-content-section-rw article {
+    display: inline-block;
+    width: 250px;
+    margin-right: 80px;
+    position: relative;
+}
+body .main-content .main-content-section-rw article a img {
+    width: 100%;
+    border-radius: 5px;
+}
+body .main-content .main-content-section-rw article a p {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: #0000008a;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+body .main-content .main-content-section-rw article a:hover p {
+    top: 20%;
+    right: 30%;
+    display: block;
+}
+body .main-content .main-content-section-rw .button-2 {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    text-decoration: none;
+    color: #9b9b9b;
+    width: max-content;
+}
+body .main-content .main-content-section-rw .button-2:hover {
+    background-color: #49bf9d;
+    border-color: #49bf9d;
+    color: white;
+}
+body .main-content .main-content-section-form {
+    width: 90%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+body .main-content .main-content-section-form h2 {
+    font-size: 1.5em;
+    color: #676767;
+    font-weight: 400;
+}
+body .main-content .main-content-section-form p {
+    font-size: 1em;
+    font-weight: 200;
+}
+body .main-content .main-content-section-form form {
+    float: left;
+    width: 65%;
+}
+body .main-content .main-content-section-form form .label-name {
+    margin-right: 19% !important;
+}
+body .main-content .main-content-section-form form .label-name,
+body .main-content .main-content-section-form form .label-mail {
+    width: 30%;
+    display: block;
+    float: left;
+    color: #676767;
+}
+body .main-content .main-content-section-form form .label-name input,
+body .main-content .main-content-section-form form .label-mail input {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px;
+    width: 180px;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
+body .main-content .main-content-section-form form .label-textarea {
+    clear: left;
+    color: #676767;
+    display: block;
+    margin-top: 70px;
+}
+body .main-content .main-content-section-form form .label-textarea textarea {
+    display: inline-block;
+    margin-top: 5px;
+    width: 90%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+}
+body .main-content .main-content-section-form form input[type="submit"] {
+    background-color: transparent;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #9b9b9b;
+    text-decoration: none;
+    color: #9b9b9b;
+    width: max-content;
+    cursor: pointer;
+}
+body .main-content .main-content-section-form form input[type="submit"]:hover {
+    background-color: #49bf9d;
+    border-color: #49bf9d;
+    color: white;
+}
+body .main-content .main-content-section-form address {
+    display: inline-block;
+    width: 35%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+body .main-content .main-content-section-elements {
+    width: 90%;
+    margin: 40px auto;
+}
+body .main-content .main-content-section-elements h1,
+body .main-content .main-content-section-elements h2,
+body .main-content .main-content-section-elements h3,
+body .main-content .main-content-section-elements h4,
+body .main-content .main-content-section-elements h5,
+body .main-content .main-content-section-elements h6 {
+    line-height: 1.2em;
+}
+body .main-content .main-content-section-elements h2 {
+    font-size: 1.5em;
+    color: #676767;
+    font-weight: 400;
+}
+body .main-content .main-content-section-elements h3 {
+    color: #676767;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+body .main-content .main-content-section-elements p {
+    font-size: 1em;
+    font-weight: 200;
+}
+body .main-content .main-content-section-elements .list-before {
+    width: 50%;
+    float: left;
+}
+body .main-content .main-content-section-elements .list-after {
+    width: 50%;
+    float: right;
+}
+body .main-content .main-content-section-elements .group-buttons .btn {
+    background-color: #49bf9d;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+body .main-content .main-content-section-elements .group-buttons .btn-hover {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 9px 14px;
+    text-decoration: none;
+    color: #676767;
+}
+body .main-content .main-content-section-elements .group-buttons .btn-hover:hover {
+    background-color: #49bf9d;
+    border: 1px solid #49bf9d;
+    color: white;
+}
+body .main-content .main-content-section-elements .group-buttons .btn-small {
+    font-size: 0.6em;
+}
+body .main-content .main-content-section-elements .group-buttons .btn-full {
+    display: block;
+    text-align: center;
+}
+body .main-content .main-content-section-elements .group-buttons .container-btn-1 {
+    width: 50%;
+    float: left;
+}
+body .main-content .main-content-section-elements .group-buttons .container-btn-1 div {
+    margin: 40px 0;
+}
+body .main-content .main-content-section-elements .group-buttons .container-btn-2 {
+    width: 50%;
+    float: left;
+}
+body .main-content .main-content-section-elements .group-buttons .container-btn-2 div {
+    margin: 40px 0;
+}
+body .main-content .main-content-section-elements code {
+    background-color: #ededed;
+    border-radius: 3px;
+    padding: 2px;
+    border: 1px solid #cbcbcb;
+}
+body .main-content .main-content-section-elements pre {
+    background-color: #ededed;
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+body .main-content .main-content-section-elements pre code {
+    background-color: transparent;
+    padding: 5px;
+}
+body .main-content .main-content-section-elements .table {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+}
+body .main-content .main-content-section-elements .table td {
+    padding: 0.5em;
+}
+body .main-content .main-content-section-elements .table th {
+    background-color: #9b9b9b;
+    text-align: left;
+    padding: 0.5em;
+}
+body .main-content .main-content-section-elements .table tbody tr:nth-child(even) {
+    border-bottom: 1px solid #515151;
+    border-top: 1px solid #515151;
+    background-color: #ccc;
+}
+body .main-content .main-content-section-elements .table tbody tr:first-child td {
+    border-top: 2px solid #515151;
+}
+body .main-content .main-content-section-elements .table tbody tr:last-child td {
+    border-bottom: 2px solid #515151;
+}
+body .main-content .main-content-section-elements .table tfoot td {
+    padding-right: 2em;
+    text-align: right;
+}
+body .main-content .main-content-section-elements .table-2 tbody td:nth-child(odd) {
+    border: 1px solid #676767;
+}
+body .main-content .main-content-section-elements .row {
+    display: inline-block;
+}
+body .main-content .main-content-section-elements .row .col-1 {
+    width: 100%;
+}
+body .main-content .main-content-section-elements .row .col-3 {
+    text-align: center;
+    width: 31.5%;
+    margin: 1%;
+    box-sizing: border-box;
+}
+body .main-content .main-content-section-elements .row .col-3:nth-child(3n-1) {
+    margin-left: 0%;
+}
+body .main-content .main-content-section-elements .row .col-3:nth-child(3n-2) {
+    margin-right: 0%;
+}
+body .main-footer {
+    clear: both;
+}
+

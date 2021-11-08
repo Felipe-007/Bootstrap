@@ -69,6 +69,8 @@ section h2{
     text-decoration: none;
 }
 
+
+
 .cards-container{
     padding: .75rem 1.25rem;
 }
@@ -79,7 +81,7 @@ section h2{
 }
 
 .cards-container .card-body{
-    background-color: rgba(70, 70, 70);
+    background-color: rgba(70,70,70);
     padding: 1rem .75rem;
     margin: 0;
     font-weight: normal;
@@ -90,8 +92,8 @@ section h2{
 }
 
 .cards-container [class^=col]{
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: .5rem; 
+    padding-right: .5rem; 
 }
 
 .rodape{
@@ -102,7 +104,6 @@ section h2{
     text-shadow: 2px 2px 2px black;
     background-color: #6b6c68;
 }
-
 .rodape p{
     margin: 0;
 }
